@@ -22,7 +22,7 @@
 - **Pull Request (PR) とは何か。**  
   - コメントや承認（approve）の方法。
 - **Conflict とは何か。またその解消方法。**  
-- （例: `git merge` と `git rebase` の違い）
+- （ `git merge` と `git rebase` の違い）
 
 ---
 
