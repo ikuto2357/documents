@@ -33,9 +33,9 @@ titleタグをheadタグの間に入れた方が良いです。今回はあま�
 UAEの縦方向に.UAE_vertical-lineというクラス名を与えるなら、横方向は.UAE_borderではなく.UAE-horizontal-lineが適切かもしれまんね。
 
 ##　cssの上書きについて
-flag.htmlの.big_circle_blueクラスで、transfromプロパティが2つ宣言されていますが、1つ目が上書きされて無効化されています。
+flag.htmlの.big_circle_blueクラスで、transformプロパティが2つ宣言されていますが、1つ目が上書きされて無効化されています。
 cssは、複数の同じプロパティがあったとき、最も下に書かれた記述が適用されることは覚えておいてください。
-transformプロパティのtranlateとrotateを同時に適用するには、`transform: translate(-50%, -50%) scale(1.2) rotate(45deg);`
+transformプロパティのtranslateとrotateを同時に適用するには、`transform: translate(-50%, -50%) scale(1.2) rotate(45deg);`
 のように書きます。ただし、今回はこのようにすると形が崩れてしまうので、1行目を削除すると良いです。
 
 ## \<meta http-equiv="X-UA-Compatible" content="IE=edge">について、
