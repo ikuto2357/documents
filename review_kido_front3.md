@@ -14,7 +14,7 @@
 それと、僕もnativeじゃないので難しいですが、件名のidやclass名も、incidentよりもsubjectやinquiry-aboutの方が適切かもしれません。
 
 ## align-itemsとalign-contentの書き間違え
-おそらくalign-contentと書きたかったところを、align-itemsと書いてしまったと推察されます。
+おそらく`align-content`と書きたかったところを、`align-items`と書いてしまったと推察されます。
 もし、使っているvscodeのパネルの「問題」に警告が出てなくて書き間違えに気づかなかった場合は、CSSTree validatorという拡張機能を入れてみるといいかもしれません。
 
 ## htmlのlangについて
@@ -24,9 +24,9 @@ Emmetで雛形を出力すると初期設定で\<html lang="en">になってい�
 こうすることで、@が含まれていなかったり英数字じゃない不正なメールアドレスを弾くことができます。
 
 ## デベロッパツールでcss適用の確認をしよう
-justify-contentのみならず、align-contentやjustify-selfを使っていたりと引き出しの多さに驚かされます。
+justify-contentのみならず、`align-content`や`justify-self`を使っていたりと引き出しの多さに驚かされます。
 ただ、ところどころで無効になっているcssがあるので、デベロッパツールで確認すると良いです。無効になっているcssには取り消し線が入っていたり、薄くなっていたります。
-例えば、justify-self:centerが、親要素がdisplay:blockであるために無効になっているということがありました。
+例えば、`justify-self:center`が、親要素がdisplay:blockであるために無効になっているということがありました。
 cssの細かい仕様を把握し切るのは限界があるので、ぜひデベロッパツールで、自分の書いたcssがどのような影響を持っているかチェックしてみてください。
 
 
