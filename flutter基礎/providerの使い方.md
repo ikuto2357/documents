@@ -1,14 +1,3 @@
-以下は、FlutterのRiverpodの`Provider`の使い方をわかりやすく説明したものです。Markdown形式で提供しますので、そのままコピペして利用できます。
-
-```markdown
-# FlutterのRiverpodでProviderを使う方法
-
-`Provider`は、Riverpodで最も基本的なプロバイダーで、ステートレスな値を提供します。これは、アプリケーション内で共有されるデータを提供する際に便利です。
-
-以下の手順に従って`Provider`を利用する方法を説明します。
-
----
-
 ## 1. 必要なパッケージをインストール
 Riverpodを利用するには、まず`flutter_riverpod`パッケージをインストールします。
 
