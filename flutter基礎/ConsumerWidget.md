@@ -1,6 +1,3 @@
-以下は、`ConsumerWidget`についての詳細をまとめたMarkdown原稿です。
-
-```markdown
 # ConsumerWidgetとは
 
 `ConsumerWidget`は、[Riverpod](https://riverpod.dev/)というFlutterの状態管理ライブラリにおいて、プロバイダの状態を購読してUIを構築するためのウィジェットです。`Consumer`の簡易版として機能し、ウィジェット全体がリビルドされる仕組みを提供します。
@@ -118,4 +115,3 @@ void main() {
 - **`Consumer`**: ビルドメソッド内で部分的にプロバイダを監視し、その部分だけをリビルドする。
 
 `Consumer`を使用すると、リビルドの範囲を柔軟に制御できるため、パフォーマンスを最適化できます。
-```
