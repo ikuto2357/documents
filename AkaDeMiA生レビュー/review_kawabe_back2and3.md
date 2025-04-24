@@ -66,7 +66,7 @@ path("mail_change_done/", views.mail_change_done, name="mail_change_done"),
 これがエラーで落ちると大変です。
 開発環境でも、strict=Trueにする利点は特にないと思います・・・
 
-## ALLOWD_HOSTについて
+## ALLOWD_HOSTSについて
 おそらく、デプロイするときにうまく動かなくて、対処法として
 ```
 ALLOWED_HOSTS = ["*"]
